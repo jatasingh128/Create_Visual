@@ -4,5 +4,6 @@ var app= express();
 
 app.get('/',(req,res)=>{
     console.log("welcome to node js");
+    console.log("thrid commit")
 })
 app.listen(8000);
